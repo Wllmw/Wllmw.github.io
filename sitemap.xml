@@ -1,0 +1,19 @@
+---
+layout: default
+title: William Wu's Blog
+description: "something about thinking, something about life"
+image:
+  feature: abstract-1.jpg
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ site.url }}</loc>
+    </url>
+    
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+    </url>
+    {% endfor %}
+</urlset>
