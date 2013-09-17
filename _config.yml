@@ -57,7 +57,7 @@ kramdown:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://wllmw.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -113,6 +113,8 @@ JB :
   #
   comments :
     provider : disqus
+    duoshuo :
+      short_name : wyg1258
     disqus :
       short_name : wllmw
     livefyre :

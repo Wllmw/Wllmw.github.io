@@ -1,16 +1,12 @@
 # wllmw.github.io
 =================
-A static blog built with [Jekyll-BootStrap][] on github pages
+A static blog built with [Jekyll-BootStrap]<http://jekyllbootstrap.com> on github pages
 
 ---
 
 With this blog, there are something about programming, thinking and some of my life.
- 
-**Having Dream, Heart Live**
 
-## Weibo
-
-<http://weibo.com/iwyg>
+**Having Dream, Makes you happy**
 
 ## Version
 

@@ -18,4 +18,23 @@
   })();
 </script>
 {% endif %}
-{% if site.disqus_shortname and page.comments %}{% include disqus_comments.html %}{% endif %}
+
+{% if site.JB.comments.provider and page.comments != false %}
+
+{% case site.JB.comments.provider %}
+{% when "duoshuo" %}
+  <div id="comments" class="ds-thread" data-title="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}"></div>
+  {% include comments-providers/duoshuo.html %}
+{% when "disqus" %}
+  <section id="disqus_thread"></section>
+  {% include comments-providers/disqus.html %}
+{% when "livefyre" %}
+  {% include comments-providers/livefyre.html %}
+{% when "intensedebate" %}
+  {% include comments-providers/intensedebate.html %}
+{% when "facebook" %}
+  {% include comments-providers/facebook.html %}
+{% endcase %}
+
+{% endif %}
+
