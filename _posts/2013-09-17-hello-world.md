@@ -23,3 +23,5 @@ image:
 * 生活和记录
 
 > “Live as if your were to die tomorrow. Learn as if you were to live forever.”　- Mahatma Gandhi
+
+-EOF-

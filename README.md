@@ -1,6 +1,6 @@
 # wllmw.github.io
 =================
-A static blog built with [Jekyll-BootStrap]<http://jekyllbootstrap.com> on github pages
+A static blog built with [Jekyll-BootStrap](http://jekyllbootstrap.com) on github pages
 
 ---
 
